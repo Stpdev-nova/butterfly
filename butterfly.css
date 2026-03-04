@@ -1,0 +1,125 @@
+/* Renaissance Font */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&display=swap');
+
+/* Page Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    background-image: url('butterfly.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fdb7e9;
+}
+.overlay {
+    background: rgba(255, 192, 203, 0.25);
+    backdrop-filter: blur(4px);
+    padding: 40px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Soft Overlay for Readability */
+.overlay {
+    background: rgba(255, 192, 203, 0.25); /* soft pink tint */
+    backdrop-filter: blur(4px);
+    padding: 40px;
+    min-height: 100vh;
+}
+
+/* Elegant Title */
+h1, h2, h3 {
+    color: #b77fd3; /* soft violet */
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+}
+
+/* Body Text */
+p {
+    color: #060606;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+/* Decorative Frame Box */
+.elegant-box {
+    border: 2px solid rgba(255, 182, 193, 0.7); /* pink border */
+    padding: 20px;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(238, 130, 238, 0.4); /* violet glow */
+    border-radius: 12px;
+}
+
+/* Buttons (if needed) */
+button {
+    background: linear-gradient(135deg, #ffb6c1, #dda0dd);
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-family: 'Cinzel', serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ffc1d6, #e6b3ff);
+    transform: scale(1.05);
+}
+/* Center Everything for Mobile */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Invitation Card */
+.overlay {
+    width: 90%;
+    max-width: 400px;   /* Perfect mobile size */
+    padding: 25px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Responsive Image */
+.side-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+/* Title */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Text */
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Elegant Box */
+.elegant-box {
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 12px;
+}
